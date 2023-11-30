@@ -1,0 +1,31 @@
+NPM not stands for node package manager, but most of the devlopers commuitty calls node package manager, since 
+it manages many packages in the background. It is a large repository containing huge no.of packages .
+All the packages , libaries, utilites whcih are required for applicaton building are found in NPM.
+
+--package.json is configration for NPM
+all the package/dependancies related information  stored in package.json
+
+--bundler package is used to make all the files comprised and ready to ship production 
+Bundling is the process of following imported files and merging them into a single file:
+
+we can install two types of dependancies/pacakges, one is dev dependancies and other one is production used dependancies
+so to install dev dependancies we npm install -D --package_name
+
+---Parcel is a build tool for the web that requires little to no configuration. It's used for bundling,
+ which is the process of merging imported files into a single file or multiple files
+
+ it creates dev build, local server and it gives HMR(Hot module replacement)
+
+
+transitive dependancies= if any dependany depends on other dependancies is called dependancies.
+eg if parcel dependancy is required for app development then there some dependices exists to run this parcel dependancy,
+this dependices exist in node modules.
+
+---No need to move node modules to github or production, using package.json and lock.json we can install all dependancies.
+Whatever essintial that needs to moved to github, remanining can be regenerated  using npm install.
+
+--npm used for mangaing packages like install, delete, update
+--npx is used for excuting package
+
+--injecting React or react dom for app using CDN is not preferable 
+it is a costly operation , CDN links have version , so we need to upadte everytime new React version is came
