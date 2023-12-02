@@ -1,0 +1,40 @@
+Episode 01-Inception
+
+Theory
+1) What is Emmet?
+Emmet is a free add-on for text editors that allows developers to type shortcuts that expand into full code.
+2) Difference between Libaray and Framework?
+Libaray
+A library is a collection of prewritten code that can be used to simplify tasks. 
+The term library simply refers to a collection of code that is reused repeatedly. 
+Framework
+framework tries to provide everything required to develop a complete application.
+
+3) What is CDN?
+A content delivery network (CDN) is a network of interconnected servers that speeds up webpage loading 
+for data-heavy applications.
+
+4) Why React is called 'React'?
+React is called React because it is a library that reacts to changes in the data and renders the user interface accordingly.
+The name "React" comes from the concept of reactive programming, which is a programming paradigm that 
+emphasizes the declarative description of the behavior of a system in response to changes in its inputs.
+
+5)What is the cross-origin in the script tag?
+ crossorigin Attribute is used for loading an external script into their domain from a third party server or 
+ another domain with the support of HTTP CORS Request
+
+ 6) Difference between React and ReactDOM
+ React: React is a javascript library, designed for building better user interfaces.
+
+React-DOM: React-DOM is a complimentary library to React which glues React to the browser DOM
+
+In a nutshell, Whenever we use component, classes, elements, etc. We’re using React and whenever
+ we use methods like render() or findDOMNode() we’re using React-DOM.
+
+
+ 7)what is the difference between react development js and react production js files via cdn
+ The main difference between React development js and React production js files via CDN is that the 
+ development js files are minified and bundled with development tools, such as Babel and Webpack, 
+ while the production js files are minified and bundled without development tools.
+This means that the development js files are larger and slower, but they are easier to debug and develop with. 
+The production js files are smaller and faster, but they are more difficult to debug and develop with.
