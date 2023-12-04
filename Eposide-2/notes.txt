@@ -15,6 +15,7 @@ so to install dev dependancies we npm install -D --package_name
  which is the process of merging imported files into a single file or multiple files
 
  it creates dev build, local server and it gives HMR(Hot module replacement)
+ 
 
 
 transitive dependancies= if any dependany depends on other dependancies is called dependancies.
