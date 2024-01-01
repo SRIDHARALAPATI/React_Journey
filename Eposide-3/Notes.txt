@@ -1,0 +1,42 @@
+--NPM Start or NPM run start both commands/scripts are same that configured with some package and index.html/ any soure file,
+in package.json file. Npm start automatically creats dev build and call given source file to run on local dev server
+
+For buliding prod bulid we use build command in between package name and source file.
+eg:-
+"scripts": {
+    "start": "parcel index.html",
+    "bulid":" parcel build index.html,
+    "test": "jest"
+  },
+
+--Dom elements are equivalent to HTML elements
+--ReactElement is an object when we render this object on DOM , it becomes HTML elements
+--ReactDOM is used for manpulating Browser.
+//react.createElement==>reactElement- JS object==>HTML Element(Render)
+--React is different and JSX is different. Without using JSX also we can build react based applications.
+but to make developers easy to develope apps JSX is used.
+JSX also know of mergining HTML and JS.
+JSX is not html inside JS but we can call as HTML like or XML like Syntax
+//JSX ==> react.createElement==>reactElement- JS object==>HTML Element(Render)
+--browser doesn't understand JSX code, then how it works
+babel which is part of parcel or any bundeler before sending code  to broswer Engine it is transpiled(coverting broswer understandable langauage) and send to JS Engine of broswer.
+// babel is a javascript compiler
+
+
+--To give name of the class for any elemant in JSX , we have to use className but not class
+--if we have to give atributes to JSX, we need to use camelCase
+
+--if JSX code is wriiten in more than one line , then they code has to wrap it up in parenthesis()
+
+--React Components --- everything in react is component
+There are two types of components 
+Class-based Components -Old way of writing code
+Functional components - New way of writing code
+
+Class Based Components
+1) It uses javascript classes to create component
+
+Functional Components
+1) It uses javascript functions to create Components
+2) React Functional component is simple javascript function wich returns some JSX
+3) any component has to be created with capital letter
